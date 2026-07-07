@@ -1,0 +1,13 @@
+{
+  "name": "@workshop/validate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Task completion checker for workshop exercises. Run `pnpm validate` inside an exercise.",
+  "bin": {
+    "workshop-validate": "./bin.mjs"
+  },
+  "exports": {
+    ".": "./lib/index.mjs"
+  }
+}
